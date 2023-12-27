@@ -47,3 +47,4 @@ plt.imshow(blackAndWhiteImage)
 plt.show()
 extract = pytesseract.image_to_string(blackAndWhiteImage)
 print(extract)
+
